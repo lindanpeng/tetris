@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<game>
+   <frame width="1166" height="688" padding="16" border="8"
+    windowUp="32" sizeRol="5" loseIdx="8">
+   <layer className="ui.LayerBackground" x="0" y="0" w="0" h="0"/>
+   <layer className="ui.LayerDataBase" x="41" y="32" w="336" h="280"/>
+   <layer className="ui.LayerDisk" x="41" y="334" w="336" h="280"/>
+   <layer className="ui.LayerGame" x="418" y="32" w="336" h="591"/>
+   <layer className="ui.LayerButton" x="795" y="32" w="336" h="100"/>
+   <layer className="ui.LayerNext" x="795" y="164" w="200" h="120"/>
+   <layer className="ui.LayerLevel" x="995" y="164" w="136" h="120"/>
+   <layer className="ui.LayerPoint" x="795" y="316" w="336" h="172"/>
+   <layer className="ui.LayerAbout" x="795" y="526" w="336" h="95"/>       
+</frame>
+<system maxX="9" minX="0" minY="0" maxY="17" levelUp="20">
+<rect round="true">
+<Point x="4" y="0"/><Point x="3" y="0"/><Point x="5" y="0"/><Point x="6" y="0"/>
+</rect>
+<rect round="true">
+<Point x="4" y="0"/><Point x="3" y="0"/><Point x="5" y="0"/><Point x="4" y="1"/>
+</rect>
+<rect round="true">
+<Point x="4" y="0"/><Point x="3" y="0"/><Point x="5" y="0"/><Point x="3" y="1"/>
+</rect>
+<rect round="true"> 
+<Point x="4" y="0"/><Point x="3" y="0"/><Point x="5" y="0"/><Point x="5" y="1"/>
+</rect >
+<rect round="true">
+<Point x="4" y="0"/><Point x="5" y="0"/><Point x="3" y="1"/><Point x="4" y="1"/>
+</rect>
+<rect round="false">
+<Point x="4" y="0"/><Point x="5" y="0"/><Point x="4" y="1"/><Point x="5" y="1"/>
+</rect>
+<rect round="true">
+<Point x="4" y="0"/><Point x="3" y="0"/><Point x="4" y="1"/><Point x="5" y="1"/>
+</rect>
+</system>
+<data maxRow="5">
+ <dataA className="dao.DataBase">
+
+ </dataA>
+ <dataB className="dao.DataDisk">
+ <param key="path" value="data/recode.dat"/>
+ </dataB>
+</data>
+</game>

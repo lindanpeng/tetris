@@ -1,0 +1,21 @@
+package ui;
+
+import java.awt.Graphics;
+
+public class LayerNext extends Layer {
+
+	
+	public LayerNext(int x, int y, int w, int h) {
+		super(x, y, w, h);
+		// TODO Auto-generated constructor stub
+	}
+ public void paint(Graphics g){
+	 this.createWindow(g);
+	 if(this.dto.isStart()){
+		 
+	 this.drawImageAtCenter(g, Img.NEXT_ACT[this.dto.getNext()]);
+	 }
+ }
+ //ÕýÖÐ»æÍ¼
+ 
+}
